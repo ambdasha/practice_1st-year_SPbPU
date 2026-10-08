@@ -1,0 +1,10 @@
+model:
+  name: catboost
+  iterations: 500
+  depth: 6
+  learning_rate: 0.03
+  random_seed: 42
+
+validation:
+  train_share: 0.70
+  validation_share: 0.15
